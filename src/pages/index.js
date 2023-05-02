@@ -1,6 +1,12 @@
 import React from "react";
-import { info } from "./index.module.css";
+import Layout from "../components/layout/Layout";
 
 export default function index() {
-  return <div className={info}>My Portfolio</div>;
+  return (
+    <Layout>
+      <section>
+        <h2>About Me</h2>
+      </section>
+    </Layout>
+  );
 }

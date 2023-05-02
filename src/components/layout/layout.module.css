@@ -1,0 +1,40 @@
+.header {
+  background-color: antiquewhite;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  padding: 2rem 1rem 5px 1rem;
+  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #353643;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.navbar {
+}
+.nav-list {
+  display: flex;
+  align-items: end;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 540px) {
+  .header {
+    flex-direction: column; /* stack child elements vertically */
+    align-items: center; /* center child elements horizontally */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: none;
+  }
+  .header > * {
+    /* add some space between child elements */
+  }
+}
