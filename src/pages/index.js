@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import profileImage from "../images/sun.jpg";
 import "./index.css";
 
 export default function index() {
@@ -10,7 +11,7 @@ export default function index() {
           <div className="container">
             <div className="even-columns">
               <div className="column-1">
-                <img className="frame" src="./sun.jpg" alt="sun" />
+                <img className="frame" src={profileImage} alt="sun" />
                 <p>
                   <span className="name">Huzaifa Nur</span>
                   <br />
