@@ -4,6 +4,7 @@ import { logo, header, navbar, navList } from "./layout.module.css";
 export default function Layout({ children }) {
   return (
     <>
+      <title>Huzaifa</title>
       <header className={header}>
         <p className={logo}>
           HUZ
