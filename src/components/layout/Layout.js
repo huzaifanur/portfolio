@@ -3,7 +3,7 @@ import "./globalStyles.css";
 import { logo, header, navbar, navList } from "./layout.module.css";
 export default function Layout({ children }) {
   return (
-    <div className="container">
+    <>
       <header className={header}>
         <p className={logo}>
           HUZ
@@ -26,6 +26,6 @@ export default function Layout({ children }) {
         </nav>
       </header>
       {children}
-    </div>
+    </>
   );
 }
