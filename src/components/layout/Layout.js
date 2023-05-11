@@ -6,6 +6,7 @@ export default function Layout({ children }) {
     <>
       <title>Huzaifa</title>
       <header className={header}>
+        <div></div>
         <p className={logo}>
           HUZ
           <br />

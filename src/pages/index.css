@@ -6,7 +6,7 @@
 }
 
 .section {
-  height: vh;
+  height: calc(100vh - 6rem);
   padding: 7rem 0;
 }
 
@@ -60,11 +60,18 @@
   margin-bottom: 0.7rem;
 }
 
+.more {
+  font-size: 1.2rem;
+  color: #4785f8;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .bg-blue {
   background-color: #cbe5f6;
 }
 
 .frame {
+  overflow: hidden;
   object-fit: contain;
   border-color: #4785f8 #f0f9ff;
   border-image: none;
@@ -77,4 +84,60 @@
   max-width: 335px;
   aspect-ratio: 1;
   margin-inline: auto;
+}
+
+.skills-container {
+  margin-top: 1rem;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.row span {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 50em) {
+  .row {
+    flex-direction: row;
+  }
+  .row span {
+    flex-basis: 33.33%;
+  }
+}
+
+.row span::before,
+.detail::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid #4785f8;
+  margin-right: 10px;
+}
+.detail::before {
+  width: 20px;
+  height: 20px;
+}
+
+hr {
+  margin: 0.8rem 0;
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+.detail {
+  margin: 0.8rem 0;
+  margin-left: 20px;
+}
+
+strong {
+  font-weight: 700;
+}
+.block {
+  text-decoration: underline;
+  color: #4785f8;
 }
