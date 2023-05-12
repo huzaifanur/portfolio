@@ -92,10 +92,10 @@ export default function Index() {
               <a style={{ color: "blue" }} href="https://frontendmentor.io/">
                 frontendmentor.io
               </a>
-              , Infact thats what bloated my github account. I have reasonable
-              skills with <strong>Flex Box</strong> and <strong>Grid</strong> .
-              Whenever I have a chance to make a choice between using plain css
-              or a CSS framework. I almost always stick to plain CSS (SASS).
+              I have reasonable skills with <strong>Flex Box</strong> and{" "}
+              <strong>Grid</strong> . Whenever I have a chance to make a choice
+              between using plain css or a CSS framework. I almost always stick
+              to plain CSS (SASS).
             </p>
             <p className="detail">
               I worked on a couple of <strong>React</strong> projects. I am
