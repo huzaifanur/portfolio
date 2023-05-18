@@ -5,8 +5,17 @@ export default function Layout({ children }) {
   return (
     <>
       <title>Huzaifa</title>
+      <div
+        style={{
+          color: "white",
+          fontSize: "1rem",
+          textAlign: "center",
+          backgroundColor: "red",
+        }}
+      >
+        Wesite under active development
+      </div>
       <header className={header}>
-        <div></div>
         <p className={logo}>
           HUZ
           <br />
